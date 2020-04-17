@@ -1,0 +1,128 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	overflow-x: hidden;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+
+.container {
+		background-image: url("images/854647-planes.jpg");
+		height: 100vh;
+		}
+
+.centered {
+  	position: absolute;
+  	top: 50%;
+  	width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+h1{
+	display: inline-block;
+	padding: 10px;
+	background-color: black;
+	color: white;
+
+}
+
+h2{
+	font-size: 40px;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h3{
+	color: #f7f2f3;
+}
+
+p{
+	
+	padding: 10px 80px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	justify-content: center;
+	margin: auto;
+}
+.one{
+
+	background-color: #8a8d91;
+}
+
+.two{
+
+	background-color: #346346;
+}
+
+.three{
+
+	background-color: #677d9c;
+}
+
+.four{
+
+	background-color: #bfc6f5;
+}
+.one, .two, .three, .four {
+	
+	text-align: center;
+	justify-content: center;
+	margin: 0px;
+	padding: 30px;
+}
+
+ 
+.image2{
+	background-image: url("images/854731-nature.jpg");
+	min-height: 400px;
+}
+
+.image3{
+	background-image: url("images/854478-camel.jpg");
+	min-height: 400px;
+}
+
+.image4{
+	background-image: url("images/854663-ipad.jpg");
+	min-height: 400px;
+}
+
+.image5{
+	background-image: url("images/854810-water.jpg");
+	min-height: 900px;
+
+}
+
+.container, .image2, .image3, .image4, .image5 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 500px){
+	h1{
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	p {
+
+		padding: 0px;
+		text-align: justify;
+		
+	}
+}
